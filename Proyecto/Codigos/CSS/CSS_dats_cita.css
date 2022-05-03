@@ -1,24 +1,21 @@
 
-.foto1{
-	display: block;
-	margin: auto;
+
+.listacal{
+	background:  #eee;
+	font-weight: bold;
 }
 
-.admin{
-	text-decoration: none;
-	list-style: none;
+ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+	padding: 0;
+    text-align: center;
 }
 
-.footer{
-    margin-top: 50px;
-    width: 100%;
-    padding: 50px 15%;
-    background: #65d6a6;
-    display: flex;
-
+.titulo{
+    text-align: center;
 }
-
-
 
 /* menu de navegacion */
 

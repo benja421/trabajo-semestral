@@ -1,25 +1,4 @@
 
-.foto1{
-	display: block;
-	margin: auto;
-}
-
-.admin{
-	text-decoration: none;
-	list-style: none;
-}
-
-.footer{
-    margin-top: 50px;
-    width: 100%;
-    padding: 50px 15%;
-    background: #65d6a6;
-    display: flex;
-
-}
-
-
-
 /* menu de navegacion */
 
 *{

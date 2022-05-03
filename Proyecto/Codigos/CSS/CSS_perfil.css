@@ -6,7 +6,14 @@
 	box-sizing: border-box;
 }
 
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    padding: 50px 15%;
+    background: #65d6a6;
+    display: flex;
 
+}
 	
 
 .foto1 { 
