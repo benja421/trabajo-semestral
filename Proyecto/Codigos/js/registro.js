@@ -14,7 +14,7 @@ $("#formulario").submit(function(e){
     
 
     if(nomb.trim().length < 4){
-        mensajemostrar += "La longitud de la contraseña no es correcta";
+        mensajemostrar += "La longitud del nombre no es correcto";
         entrar = true;
     }
 
