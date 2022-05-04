@@ -14,7 +14,7 @@ $("#formulario").submit(function(e){
     
 
     if(nomb.trim().length < 4){
-        mensajemostrar += "La longitud no es correcta<br>";
+        mensajemostrar += "La longitud de la contraseña no es correcta";
         entrar = true;
     }
 
@@ -23,8 +23,8 @@ $("#formulario").submit(function(e){
         entrar = true;
 
     }
-    if(pass1.trim().length < 5 && pass1.trim().length >16){
-        mensajemostrar += "La contraseña debe tener entre 5 a 16 caracteres";
+    if(pass1.trim().length < 5){
+        mensajemostrar += "La contraseña debe tener 5 caracteres minimo ";
         entrar = true;
     }
 
